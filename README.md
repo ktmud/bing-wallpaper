@@ -1,7 +1,7 @@
 Bing Wallpaper for Mac
 =====================
 
-Microsoft has a offical [bing wallpaper theme](http://windows.microsoft.com/en-US/windows/downloads/bingng-dynamic-theme) for Windows 7.
+Microsoft has an offical [bing wallpaper theme](http://windows.microsoft.com/en-US/windows/downloads/bingng-dynamic-theme) for Windows 7.
 
 And that's where this little script came from.
 
