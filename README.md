@@ -9,6 +9,6 @@ How to use?
 -----------
 
 * change the cd path in the first line to where you want save the wallpapers.
-* change the path of this script to where you put it exactly in **bing-cron**
+* change the path of this script in **bing-cron** to where you put it exactly 
 * run `crontab bing-cron` to setup the cronjob.
 * in the system preference -> wallpapers and screensaver, add your wallpaper directory and setup the auto changement.  
