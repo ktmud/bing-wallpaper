@@ -7,7 +7,7 @@ while read line
 do
     fileName=$(echo $line | sed -e "s;.*/\([^\/]*\)$;\1;")
     if [[ -f $fileName ]]; then
-        echo "$fileName existed" 
+        echo "$fileName already exists" > log.txt
     else
         curl -O $line;
     fi
