@@ -16,6 +16,6 @@ How to use?
 Better Version
 --------------
 
-There are [a better version](https://github.com/thejandroman/bing-Wallpaper) of this script written by [thejandroman](https://github.com/thejandroman).
+There is [a better version](https://github.com/thejandroman/bing-Wallpaper) of this script written by [thejandroman](https://github.com/thejandroman).
 
-I'll leave this repo here as a bad example.
+I'll leave my code as it is, to show people what's good and what's bad.
