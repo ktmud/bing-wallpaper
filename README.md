@@ -12,3 +12,10 @@ How to use?
 * change the path of **bing-wallpager.sh** in **bing-cron** to where you put this script exactly 
 * run `crontab bing-cron` to setup the cronjob.
 * in Mac's `system preference` -> `wallpapers and screensaver`, add your wallpaper directory and setup the auto changement.
+
+Better Version
+--------------
+
+There are [a better version](https://github.com/thejandroman/bing-Wallpaper) of this script written by [thejandroman](https://github.com/thejandroman).
+
+I'll leave this repo here as a bad example.
