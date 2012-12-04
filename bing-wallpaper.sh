@@ -1,5 +1,8 @@
-#!/usr/bash
-cd /Users/jesse/projects/bing-wallpapers/
+#!/usr/bin/env bash
+
+mkdir -p ~/Pictures/bing-wallpapers/
+cd ~/Pictures/bing-wallpapers/
+
 # for more urls, goto http://windows.microsoft.com/en-US/windows/themes?T1=rss
 # download a theme, use a text editor to open it, and find the url.
 curl "http://themeserver.microsoft.com/default.aspx?p=Windows&c=Flora&m=en-US" | grep -o 'url="[^"]*"' | sed -e 's/url="\([^"]*\)"/\1/' | sed -e "s/ /%20/g" > tmp.txt
