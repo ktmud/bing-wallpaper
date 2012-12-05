@@ -1,2 +1,2 @@
-#min   hour       mday  month  wday   command
-20  9,12,15,19,22  *      *     *     sh $HOME/Pictures/bing-wallpaper.sh 
+#min hour mday month wday command
+0 10 * * * bash $HOME/Pictures/bing-wallpaper.sh 
