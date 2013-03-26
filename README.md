@@ -12,14 +12,14 @@ The script was tested in Mac OS X 10.8.2.
 How to use?
 -----------
 * If desired change the default **PICTURE_DIR** in **bing-wallpaper.sh** to the wallpaper directory. If left unchanged the default value is **~/Pictures/bing-wallpapers/**.
-* To have the script run everyday automatically you will need to setup launchd (Mac only, for Ubuntu see below). I have provided a sample plist file which can be copied to **$HOME/Library/LaunchAgents** and loaded with the command `launchctl load $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist`. Modify the plist as needed to point to **bing-wallpaper.sh**. For more information on configuring launchd [see here](http://blog.ideasftw.com/introduction-to-launchd).
+* To have the script run everyday automatically you will need to setup launchd (Mac only, for Ubuntu see below). I have provided a sample plist file, found in the Tools directory, which can be copied to **$HOME/Library/LaunchAgents** and loaded with the command `launchctl load $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist`. Modify the plist as needed to point to **bing-wallpaper.sh**. For more information on configuring launchd [see here](http://blog.ideasftw.com/introduction-to-launchd).
 * Open Mac's `System Preferences` -> `Desktop & Screensaver`, add the wallpaper directory, and configure to taste.
 
 Ubuntu
 ------
 Steps to configure are identical to the Mac version except for the following:
 
-* Change the path of **bing-wallpaper.sh** in **bing-cron** to the script location. If left unchanged the default value is **~/Pictures/bing-wallpaper.sh**.
+* Change the path of **bing-wallpaper.sh** in **Tools/bing-cron** to the script location. If left unchanged the default value is **~/Pictures/bing-wallpaper.sh**.
 * From the terminal run `crontab /path/to/bing-cron` to setup the cronjob.
 
 The Ubuntu script was tested in Ubuntu 12.10.
