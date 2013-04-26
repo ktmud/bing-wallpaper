@@ -5,7 +5,7 @@ Information
 -----------
 A script which downloads the latest picture of the day from Bing.com and saves it to a directory.
 
-The script was tested in Mac OS X 10.8.2.
+The script was tested in Mac OS X 10.8.2 and 10.8.3.
 
 [Blog entry](http://blog.ideasftw.com/bing-desktop-for-mac)
 
@@ -22,7 +22,7 @@ Steps to configure are identical to the Mac version except for the following:
 * Change the path of **bing-wallpaper.sh** in **Tools/bing-cron** to the script location. If left unchanged the default value is **~/Pictures/bing-wallpaper.sh**.
 * From the terminal run `crontab /path/to/bing-cron` to setup the cronjob.
 
-The Ubuntu script was tested in Ubuntu 12.10.
+The Ubuntu script was tested in Ubuntu 12.10 and 13.04.
 
 Acknowledgement
 ---------------
