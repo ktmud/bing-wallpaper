@@ -6,11 +6,7 @@ Information
 A script which downloads the latest picture of the day from Bing.com and saves
 it to a directory.
 
-<<<<<<< HEAD
-The script was tested in Mac OS X 10.8.3.
-=======
 The script was tested in Mac OS X 10.8.2 and 10.8.3.
->>>>>>> 4b108d83bf5b008ab43a339b884e35b546bc6f13
 
 [Blog entry](http://blog.ideasftw.com/bing-desktop-for-mac)
 
