@@ -8,7 +8,7 @@ it to a directory.
 
 The script was tested in Mac OS X 10.8.2 and 10.8.3.
 
-[Blog entry](http://blog.ideasftw.com/bing-desktop-for-mac)
+[Blog entry](http://blog.ideasftw.com/2012/12/bing-desktop-for-mac.html)
 
 How to use?
 -----------
@@ -28,9 +28,9 @@ the Tools directory, which can be copied to **$HOME/Library/LaunchAgents** and
 loaded with the command `launchctl load
 $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist`. Modify the plist
 as needed to point to **bing-wallpaper.sh**. For more information on configuring
-launchd [see here](http://blog.ideasftw.com/introduction-to-launchd).
+launchd [see here](http://blog.ideasftw.com/2013/02/run-script-from-launchd-instead-of-cron.html).
 * Another option on Mac (and arguably a little simpler) is to set the Calendar
-app to run the **Tools/Bing Wallpaper.app** [at a recurring daily time](http://blog.ideasftw.com/introduction-to-launchd).
+app to run the **Tools/Bing Wallpaper.app** [at a recurring daily time](http://blog.ideasftw.com/2013/03/use-mac-calendar-and-automator-to-run.html).
 Modify the app (from within Automator) as needed to point to **bing-wallpaper.sh**
 and the correct **PICTURE_DIR**.
 
