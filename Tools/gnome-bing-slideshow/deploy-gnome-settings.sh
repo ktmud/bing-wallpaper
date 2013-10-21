@@ -15,7 +15,7 @@
 # If an error occurs, give up and terminate.
 set -e
 
-SCRIPT_DIR="${PWD}/$(dirname $0)"
+SCRIPT_DIR="$(dirname ${BASH_SOURCE[0]})"
 
 echo 'Making .local/share directories.'
 mkdir -p ${HOME}/.local/share/gnome-background-properties/
