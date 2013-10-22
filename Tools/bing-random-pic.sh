@@ -20,7 +20,8 @@
 # If an error occurs, give up and terminate.
 set -e
 
-BING_SCRIPT='../bing-wallpaper.sh'
+SCRIPT_DIR="$(dirname ${BASH_SOURCE[0]})"
+BING_SCRIPT="${SCRIPT_DIR}/../bing-wallpaper.sh"
 
 echo 'Running the bing-wallpaper script and loading settings.'
 # NOTE: $PICTURE_DIR and $filename is sourced from bing-wallpaper.sh
