@@ -46,8 +46,10 @@ Configuration on Ubuntu
 
 * To install Gnome background slideshow, in the terminal run:
 
-  $ git clone git@github.com:thejandroman/bing-wallpaper.git
-  $ bing-wallpaper/Tools/gnome-bing-slideshow/deploy-gnome-settings.sh
+```
+$ git clone git@github.com:thejandroman/bing-wallpaper.git
+$ bing-wallpaper/Tools/gnome-bing-slideshow/deploy-gnome-settings.sh
+```
 
 * Register `bing-wallpaper/bing-random-pic.sh` to run regularly.
 
