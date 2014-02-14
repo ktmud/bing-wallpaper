@@ -19,3 +19,7 @@ Better Version
 There is [a better version](https://github.com/thejandroman/bing-Wallpaper) of this script written by [thejandroman](https://github.com/thejandroman).
 
 I'll leave my code as it is, to show people what's good and what's bad.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ktmud/bing-wallpaper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
