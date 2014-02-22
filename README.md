@@ -75,3 +75,7 @@ Acknowledgement
 Original script by ktmud can be found at
 [https://github.com/ktmud/bing-wallpaper](
 https://github.com/ktmud/bing-wallpaper).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/thejandroman/bing-wallpaper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
